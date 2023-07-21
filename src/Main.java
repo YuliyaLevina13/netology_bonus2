@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         int customerAccount = 50;
-        int bonusAccrued  = 100;
+        int bonusAccrued = 100;
         int replenishment = 1050;
         int bonus;
 
-        if (bonusAccrued >= 100){
+        if (bonusAccrued <= 1000) {
             bonus = replenishment / bonusAccrued;
         } else {
             bonus = 0;
